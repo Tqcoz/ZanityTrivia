@@ -1,5 +1,5 @@
 {
-  "token": "yourtokenhere",
+  "token": "NDY3NDM2NDI3OTM3MDU0NzIy.DkSliA.IgeNBOC4u-yvvBJ_9UgMAs6yZ90",
   "bots.discord.pw-token": "optionaltokenhere",
   "discordbots.org-token": "optionaltokenhere",
   "botlist.space-token": "optionaltokenhere",
@@ -10,7 +10,7 @@
 
   "disable-admin-commands": false,
   "use-reactions": false,
-  "prefix": "trivia ",
+  "prefix": "? ",
   "hide-difficulty": false,
   "auto-delete-msgs": false,
   "round-length": 20000,
