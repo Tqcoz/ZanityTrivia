@@ -119,16 +119,6 @@ global.client.on("ready", () => {
     global.client.user.setAvatar("./profile.png");
   }
 
-  global.client.user.setPresence({ game: { name: "Trivia! Type '" + config.prefix + "help' to get started.", type: 0 } });
-
-  if(config["beta-mode"]) {
-    var skip = false;
-    global.client.guilds.forEach((guild) => {
-      guildBetaCheck(guild, skip);
-      skip = true;
-    });
-  }
-
   postBotStats();
 });
 
